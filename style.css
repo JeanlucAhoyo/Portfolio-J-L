@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+a {
+    color: green;
+}
+
+.navi, .exp {
+    background-color: darkslategrey;
+}
+
+.navi {
+    height: 50px;
+    position: sticky;
+}
+
+.self h1, .exp, .navigate a {
+    color: white;
+}
+
+.self {
+    /*height: 600px;*/
+    background-image: url(https://shots.codepen.io/pankaj-adhikari-the-bashful/pen/GXrWPL-800.jpg?version=1535715837);
+    background-size: cover;
+}
+
+/*.self h1 {
+    font-size: 100px;
+}*/
+
+.zone {
+    height: 500px;
+}
+
+.cont {
+    color: black;
+    font-size: 20px;
+}
+
+.ref {
+    height: 100px;
+    background-color: lightgrey;
+}
+
+@media (max-width: 576px) {
+    .navigate2 {
+        font-size: 13px;
+    }
+
+    .mtext {
+        column-count: 2;
+    }
+
+    .mtext, h4 {
+        font-size: 13px;
+    }
+
+    .cont {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 376px) {
+    .navigate3 {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 767px) {
+    .navigate3 {
+        font-size: 11px;
+    }
+}
